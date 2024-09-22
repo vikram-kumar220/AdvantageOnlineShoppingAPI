@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1727024482553,839,CreateAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",AccountServices 1-1,,true,,784,644,1,1,null,0,2,446
+1727024482554,839,HTTP Request,200,,AccountServices 1-1,text,true,,784,644,1,1,https://advantageonlineshopping.com/accountservice/accountrest/api/v1/register,839,0,446
+1727024483394,452,Login,200,"Number of samples in transaction : 1, number of failing samples : 0",AccountServices 1-1,,true,,1041,339,1,1,null,0,0,0
+1727024483394,452,HTTP Request,200,,AccountServices 1-1,text,true,,1041,339,1,1,https://advantageonlineshopping.com/accountservice/accountrest/api/v1/login,452,0,0
+1727024483846,220,LogOut,404,"Number of samples in transaction : 1, number of failing samples : 1",AccountServices 1-1,,false,,1118,473,1,1,null,0,1,0
+1727024483847,220,HTTP Request,404,,AccountServices 1-1,text,false,,1118,473,1,1,https://advantageonlineshopping.com/accountrest/api/v1/logout,220,0,0
+1727024484067,1,Debug Sampler,200,OK,AccountServices 1-1,text,true,,535,0,1,1,null,0,0,0
